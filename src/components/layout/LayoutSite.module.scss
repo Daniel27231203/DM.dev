@@ -1,0 +1,24 @@
+.LayoutSite {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  position: relative;
+  min-height: 100vh;
+  header {
+    position: fixed;
+    top: 0;
+    right: 0;
+    width: 100%;
+  }
+  main {
+    margin-bottom: auto;
+    padding: 20px 0;
+  }
+  footer {
+    margin-top: auto;
+    position: fixed;
+    bottom: 0;
+    right: 0;
+    width: 100%;
+  }
+}
