@@ -1,0 +1,45 @@
+.NavsMenu {
+  position: absolute;
+  top: 80px;
+  right: 30px;
+  padding: 20px;
+  border-radius: 10px 0 10px 10px;
+  background: transparent;
+  border: 2px solid purple;
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+  box-shadow: 0px 3px 10px 1px purple;
+  -webkit-box-shadow: 0px 3px 10px 1px purple;
+  -moz-box-shadow: 0px 3px 10px 1px purple;
+  .link {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    transition: transform 0.3s ease;
+
+    cursor: pointer;
+    span {
+      color: purple;
+      font-size: 25px;
+      transition: 0.5s;
+    }
+    h1 {
+      color: white;
+      font-size: 20px;
+      letter-spacing: 1px;
+      transition: 0.5s;
+      font-family: "Arima", serif;
+    }
+    &:hover {
+      transform: scale(1.1);
+      color: purple;
+      h1 {
+        color: purple;
+      }
+      span {
+        color: white;
+      }
+    }
+  }
+}

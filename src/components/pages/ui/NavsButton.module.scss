@@ -1,0 +1,25 @@
+.NavsButton {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  button {
+    background: transparent;
+    border: none;
+    padding: 10px;
+    font-size: 35px;
+    color: purple;
+
+    &:hover {
+      color: white;
+    }
+  }
+}
+
+@media (max-width: 500px) {
+  .NavsButton {
+    button {
+      padding: 8px;
+      font-size: 25px;
+    }
+  }
+}
