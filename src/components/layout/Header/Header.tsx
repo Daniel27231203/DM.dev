@@ -24,7 +24,7 @@ const Header: FC = () => {
   }, []);
 
   return (
-    <section className={scss.Header}>
+    <header className={scss.Header}>
       <div className="container">
         <div className={scss.content}>
           <div className={scss.logo}>
@@ -79,7 +79,7 @@ const Header: FC = () => {
           </div>
         </div>
       </div>
-    </section>
+    </header>
   );
 };
 
